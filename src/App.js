@@ -1,10 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import riverbed from './assets/6.jpeg'
 import pier from './assets/pier-on-the-beach.jpeg'
 import park from './assets/360-photo-panorama-.jpeg'
 import timesquare from './assets/times-square-nyc-360-view.jpeg'
-import timethumb from './assets/timesquarefont.png'
+import timethumb from './assets/download-door-png-transparent-image-and-clipart-12.png'
 
 function App() {
   return (
@@ -14,8 +13,7 @@ function App() {
         <a-scene>
     <a-assets>
       <img alt="a" id="timesquare-thumb" crossorigin="anonymous" src={timethumb}/>
-      <img alt="b" id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg"/>
-      <img alt="c" id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"/>
+
       <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
       <img alt="e" id="pier" crossorigin="anonymous" src={pier}/>
       <img alt="f" id="park" crossorigin="anonymous" src={park}/>
@@ -30,8 +28,8 @@ function App() {
 
 
     <a-entity id="links" layout="type: line; margin: 2.5" position="0 -2 -4">
-      <a-entity template="src: #link" data-src="#park" data-thumb="#park-thumb"></a-entity>
-      <a-entity template="src: #link" data-src="#pier" data-thumb="#pier-thumb"></a-entity>
+      <a-entity template="src: #link" data-src="#park" data-thumb="#timesquare-thumb"></a-entity>
+      <a-entity template="src: #link" data-src="#pier" data-thumb="#timesquare-thumb"></a-entity>
       <a-entity template="src: #link" data-src="#timesquare" data-thumb="#timesquare-thumb"></a-entity>
     </a-entity>
 
