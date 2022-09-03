@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/XR-APP/static/css/main.073c9b0a.css",
+    "main.js": "/XR-APP/static/js/main.a1c2438d.js",
+    "static/js/787.3e3b0437.chunk.js": "/XR-APP/static/js/787.3e3b0437.chunk.js",
+    "static/media/360-photo-panorama-.jpeg": "/XR-APP/static/media/360-photo-panorama-.457c830aba4b1c72beee.jpeg",
+    "static/media/times-square-nyc-360-view.jpeg": "/XR-APP/static/media/times-square-nyc-360-view.ec8ffc17e407779dcd2a.jpeg",
+    "static/media/pier-on-the-beach.jpeg": "/XR-APP/static/media/pier-on-the-beach.aa9c632142f9698ceacf.jpeg",
+    "static/media/download-door-png-transparent-image-and-clipart-12.png": "/XR-APP/static/media/download-door-png-transparent-image-and-clipart-12.925220c9970d69ff039a.png",
+    "static/media/logo.svg": "/XR-APP/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/XR-APP/index.html",
+    "main.073c9b0a.css.map": "/XR-APP/static/css/main.073c9b0a.css.map",
+    "main.a1c2438d.js.map": "/XR-APP/static/js/main.a1c2438d.js.map",
+    "787.3e3b0437.chunk.js.map": "/XR-APP/static/js/787.3e3b0437.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a1c2438d.js"
+  ]
+}
